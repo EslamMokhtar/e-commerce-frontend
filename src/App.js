@@ -32,7 +32,7 @@ class App extends Component {
             render={({ match }) => <Category cid={match.params.cid} />}
           />
           <Route path="*">
-            <Error message="Page not found!"/>
+            <Error message="Page not found !!"/>
           </Route>
         </Switch>
       </>
